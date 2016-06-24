@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+    <RelativeLayout
+        android:id="@+id/searchBar"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone">
+
+    </RelativeLayout>
+</RelativeLayout>
